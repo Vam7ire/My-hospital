@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    margin: 0;
+    background-image: url();
+}
+
+.myNav{
+    display: flex;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    margin: 20px;
+    
+    
+}
+
+.myNavBar{
+    margin: 20px;
+    display: flex;
+    list-style: none;
+    gap: 10vw;
+    justify-content: space-between;
+    
+}
+
+.myNavBar .navLi{
+    align-items: center;
+    position:fixed;
+    top: 0;
+    position: sticky;
+    letter-spacing: 2px;
+    
+    
+}
+
+.myHeading{
+    
+}
+.midTab{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.leftBar{
+    background-color: red;
+    margin-left: 2vw;
+    height: 36vh;
+    width: 20vw;
+    
+}
+
+.leftBarItem{
+    margin-top: 5vh;
+    gap: 5vh;
+    display:flex;
+    flex-direction: column;
+}
+
+.leftBarItem, a{
+    margin-left: 1vw;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.rightBar{
+    margin-left: 3vh;
+    background-color: rgb(133, 87, 175);
+    display: flex;
+    height: 36vh;
+    width: 50vw;
+}
+
+.loginInside{
+    margin: 20px;
+}
+
+.loginLogo, img{
+    padding-top: 5vh;
+    height: 20vh;
+
+}
+
+.rightSide{
+    background-color: yellow;
+    margin-left: 2vw;
+}
+
+.rightSideContent ul li{
+    margin: 1vw;
+    list-style: none;
+}
+
+
+
